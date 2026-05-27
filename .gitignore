@@ -1,0 +1,65 @@
+# Zig build output
+.zig-cache/
+zig-out/
+
+# Build logs / temporary logs
+build_log.txt
+build.log
+compile.log
+link.log
+zig_build.log
+regsvr32.log
+*.log
+
+# Compiled binaries
+*.ax
+*.dll
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Windows temp files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE folders
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / MSVC generated folders
+.vs/
+Debug/
+Release/
+x64/
+x86/
+Win32/
+out/
+bin/
+obj/
+
+# Local backup files
+*.bak
+*.old
+*.tmp
+*.temp
+
+# Keep source and docs
+!src/
+!tools/
+!third_party/
+!JOURNEY.md
+!README.md
+!build_manual_x64_msvc.bat
+
+# DirectShow BaseClasses note:
+# If you do NOT want to vendor Microsoft BaseClasses in your repo,
+# uncomment this:
+# third_party/baseclasses/
